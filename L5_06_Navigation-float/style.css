@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Helvetica, sans-serif;
+}
+body {
+  line-height: 1.5;
+  max-width: 1200px;
+  width: 1000px;
+  margin: 50px 80px;
+  background-color: rgb(238, 238, 238);
+}
+header {
+  border-bottom: solid;
+}
+.site-title {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0;
+}
+h2,
+h3 {
+  font-family: Georgia, serif;
+  size: 1em;
+  font-weight: 500;
+}
+h2 {
+  margin-top: 30px;
+}
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+main {
+  width: 75%;
+}
+main section {
+  font-family: Georgia, serif;
+}
+img {
+  border: 3px solid;
+  padding: 5px;
+  background-color: (255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+.first-pic {
+  width: 27%;
+  float: right;
+  margin-left: 15px;
+}
+.second-pic {
+  width: 30%;
+  height: 60%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+#inline-paragraph {
+  display: inline-block;
+  border-right: 4px solid grey;
+  padding-right: 30px;
+  width: 50%;
+}
+blockquote {
+  font-family: Georgia, serif;
+  display: inline-block;
+  width: 38%;
+  font-style: italic;
+  padding-right: -5px;
+  vertical-align: top;
+}
+blockquote p {
+  text-align: right;
+}
+main,
+aside {
+  display: inline-block;
+}
+aside {
+  width: 20%;
+  vertical-align: top;
+  margin-left: 45px;
+  size: 10px;
+}
+li {
+  list-style: square;
+}
+aside li a {
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+}
+header nav {
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+}
+header nav li {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+  margin: 10px;
+}
